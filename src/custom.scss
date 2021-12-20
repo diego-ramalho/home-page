@@ -1,0 +1,32 @@
+// Override default variables before the import
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+html{
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(
+        to bottom right,
+        #FDC639, #FF7C60
+        /*#093a79, #00d4ff*/
+    );
+}
+
+.custom-nav{
+    background: linear-gradient(
+        to right,
+        #50271e, #000
+        /*#093a79, #00d4ff*/
+    );
+}
+
+.central-banner-section, .footer-section, .left-section, .right-section {
+    margin: 15px;
+    padding: 15px;
+    background: #FFF;
+    border-radius: 5px;
+}

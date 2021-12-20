@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
+import './custom.scss';
 import App from './App';
+import { AppNav } from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
+    <AppNav />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
